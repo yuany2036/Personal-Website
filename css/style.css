@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 10;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    font-family: 'Zen Kurenaido', sans-serif;
+    padding: 1rem 1rem 0 1rem;
+}
+#logobutton{
+    font-size: 2rem;
+}
+/* Below is for the nav links in the header */
+a{
+    padding: 0 1rem;
+    text-decoration: none;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    color: black;
+}
+header ul a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+header li{
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+}
+header a:visited{
+    color: black;
+}
+main{
+    margin: 2rem;
+    text-align: center;
+    min-height: 100vh;
+}
+h2{
+    text-align: center;
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+article{
+    display: flex;
+    justify-content: center;
+}
+main p{
+    width: 50%;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    padding: 0 1rem 3rem 1rem;
+}
+#mainpic{
+    width: 500px;
+}
+footer{
+    background-color: gray;
+    color: white;
+}
+footer a:visited{
+    color: white;
+}
+footer nav{
+    padding: 1rem;
+}
+table{
+    max-width: 18rem;
+}
+tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact div{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    padding-top: 2rem;
+}
+#contact img{
+    width: 30px;
+    margin: 0.5rem;
+    padding-top: 0;
+}
+/* The following CSS are for hobbies page only */
+#hobbiesmain{
+    background-color: white;
+}
+section div{
+    padding: 0 3rem;
+}
+#hobbiesmain{
+    display: flex;
+    justify-content: center;
+}
+section div img{
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
+}
+div p, #hobbiesintro{
+    text-align: center;
+}
+p a{
+    text-decoration: underline;
+}
+/* The following CSS are for cooking page only */
+#cookingmain{
+    margin: 3rem;
+    height: 60vh;
+}
+.cooking{
+    text-align: left;
+    width: 30%;
+    margin: 0% auto;
+}

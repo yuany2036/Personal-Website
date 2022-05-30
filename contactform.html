@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logobutton">Yu-An Chen</a>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About Me</li></a>
+                <a href="hobbies.html"><li>Hobbies</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+    <h2>Contact Form</h2>
+    <main>
+        <article>
+            <form action="">
+                <label for="1name">First Name:</label>
+                <input type="text" id="1name" autofocus><br>
+
+                <label for="2name">Last Name:</label>
+                <input type="text" id="2name"><br>
+
+                <div>
+                    <label for="male">Male:</label>
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="female">Female:</label>
+                    <input type="radio" name="gender" value="female" id="female">
+                </div><br>
+
+                <label for="age" style="display: block;">Age:</label>
+                <input type="number" id="age" min="18" style="display: block;"><br>
+
+                <label for="email" style="display: block;">Email:</label>
+                <input type="email" id="email" style="display: block;"><br>
+
+                <label for="feedback">Your Message:</label>
+                <textarea name="feedback from personal information submission" id="feedback" cols="30" rows="10" style="display: block;" required></textarea><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </article>
+    </main>
+    
+    <footer>
+        <nav id="contact">
+            <h3>Contact Me</h3><br>
+            <div>
+                <table>
+                    <tr>
+                        <td><img src="./jpg/call.png" alt="Phone number"></td>
+                        <td>015902259938</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./jpg/send.png" alt="Email address"></td>
+                        <td>yuany2036@gmail.com</td>
+                    </tr>
+                    <tr style="visibility: hidden;">
+                        <td colspan="2"><a href="contactform.html">Or Fill out a contact form here</a></td>
+                    </tr>
+                </table>
+                <ul class="social_links">
+                    <a href="https://www.facebook.com/yuan.chen3/" target="_blank"><img src="./jpg/facebook.png" alt="Link to my Facebook"></a>
+                    <a href="https://www.instagram.com/yuany2036/" target="_blank"><img src="./jpg/instagram.png" alt="Link to my Instagram"></a>
+                    <a href="https://www.youtube.com/channel/UCPKo2Q3FWJQR04BVJKPbqUg" target="_blank"><img src="./jpg/youtube.png" alt="Link to my YouTube"></a>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
